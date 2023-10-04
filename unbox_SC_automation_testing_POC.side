@@ -1,0 +1,167 @@
+{
+  "id": "c6eb5a23-147b-4999-8c7b-c866c09deb34",
+  "version": "2.0",
+  "name": "unbox_SC_automation_testing_POC",
+  "url": "https://robots.unboxrobotics.com/sc/",
+  "tests": [{
+    "id": "59953aff-e6c2-4520-bf9e-5b871eabfa41",
+    "name": "test_1_(log_in+system_start)",
+    "commands": [{
+      "id": "fa08ecff-83d5-42f0-9fcc-01c7f55e17b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://robots.unboxrobotics.com/sc",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f4de862-a434-46b5-8c4a-730a2b3ca89f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "727x910",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6bb3a24-62a1-414e-97c0-4c7084399873",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.sc-eXzmrL:nth-child(2) > .sc-iqzjZf", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "super_user"
+    }, {
+      "id": "644784d6-d052-4f90-8faa-85f182e32011",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-eXzmrL:nth-child(3) > .sc-iqzjZf", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "ubr_admin@2023"
+    }, {
+      "id": "7dad7cce-b035-4d92-8c53-801ce3f43fe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hKMtDE",
+      "targets": [
+        ["css=.sc-hKMtDE", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5173a61e-72aa-4f2e-97b3-9bf73bf24df9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-gITdGB",
+      "targets": [
+        ["css=.sc-gITdGB", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fea35e-7bdb-4ea2-a5a9-d34fd2a218c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gOmHPS",
+      "targets": [
+        ["css=.gOmHPS", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div[2]/ul/li/div/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Initialize system')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "348db52b-7f79-4a52-9803-711fdf6640b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-fIauvf > div > div",
+      "targets": [
+        ["css=.sc-fIauvf > div > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div[2]/ul/li[2]/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8237951c-b215-42f9-8b6e-341cecaa9bf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(1)",
+      "targets": [
+        ["css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6bbc511c-1af5-48dc-9822-b59a7d4f4cfc",
+    "name": "test_2_(system_start+bot_commisioning)",
+    "commands": [{
+      "id": "2325806c-70ad-4ab1-9b87-bf67c308d870",
+      "comment": "",
+      "command": "open",
+      "target": "https://robots.unboxrobotics.com/sc/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d41e00e-0661-4e5e-b530-236320c9ef00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-gITdGB",
+      "targets": [
+        ["css=.sc-gITdGB", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4197b0ed-771e-4006-b30b-2cfbe74307b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(1)",
+      "targets": [
+        ["css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "891e3bf0-17a6-4d99-8e9f-183d93841884",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(2)",
+      "targets": [
+        ["css=.sc-bczSft:nth-child(8) > .sc-gsnScm:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div[2]/div[2]/div[6]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'End')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8e2c795-0279-42e5-96ff-7f4fa4c61d3e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59953aff-e6c2-4520-bf9e-5b871eabfa41"]
+  }],
+  "urls": ["https://robots.unboxrobotics.com/", "https://robots.unboxrobotics.com/sc/", "https://robots.unboxrobotics.com/sc/home"],
+  "plugins": []
+}
